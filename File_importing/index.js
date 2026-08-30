@@ -1,8 +1,7 @@
 const {add,sub,mul,div} = require("./Calc")
 const heading = require("./title")
 
-var t = "calculator"
-heading(t)
+heading("calculator")
 add(9,1)
 sub(10,1)
 mul(10,1)
